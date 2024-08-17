@@ -1,0 +1,22 @@
+.header{
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 85px;
+  right: 0;
+  height: 54px;
+  border-bottom: 1px solid grey;
+  display: flex;
+}
+
+.header-section{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.header-section p{
+  border-bottom: 5px solid rgb(0, 132, 255);
+  padding-bottom: 33px;
+  font-weight: bold;
+}

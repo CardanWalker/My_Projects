@@ -1,0 +1,95 @@
+.my-post{
+  padding: 5px 10px;
+  height: 107px;
+  width: 100%;
+  border-bottom: 1px solid rgb(82, 82, 82);
+  display: flex;
+  justify-content: top;
+  column-gap: 8px;
+}
+
+.user-icon{
+  width: 43px;
+  height: 43px;
+}
+.user-pfp{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+}
+
+.user-post{
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px ;
+  flex: 1;
+}
+
+.user-post-content{
+  display: flex;
+  height: 50%;
+  align-items: center;
+}
+
+.user-post-input{
+  height: 100%;
+  background-color: black;
+  border: none;
+  font-size: 22px;
+  flex: 1;
+  color: white;
+  white-space: nowrap;
+}
+
+.user-post-input::placeholder{
+  color: rgba(211, 211, 211, 0.534);
+}
+
+.user-post-buttons{
+  display: flex;
+  height: 50%;
+  justify-content: space-between;
+}
+
+.user-post-extras{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 3;
+}
+
+.user-post-media-stickers-container{
+  display: flex;
+  column-gap: 18px;
+  background-color: grey;
+}
+
+.user-post-media-stickers{
+  display: flex;
+  justify-content: center;
+  background-color: aquamarine;
+  height: 20px;
+  width: 20px;
+}
+
+.user-post-media-stickers-icon{
+
+}
+
+.finish-post-section{
+  flex: 1;
+  display: flex;
+  justify-content: right;
+}
+
+.post-button{
+  color: white;
+  background-color: rgb(0, 130, 255);
+  border: none;
+  border-radius: 20px;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 1px 16px;
+}

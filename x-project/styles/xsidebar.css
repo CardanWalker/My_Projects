@@ -1,0 +1,43 @@
+.sidebar{
+  background-color: black;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  width: 85px;
+  border-right: 1px solid grey;
+}
+
+.sidebar-section{
+  height: 50px;
+  width: 50px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.sidebar-section .sidebar-tooltip{
+  position: absolute;
+  bottom: -25px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.15s;
+  background-color: grey;
+  padding: 2px;
+  font-size: 13px;
+  border-radius: 2px;
+}
+
+.sidebaricon{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.sidebar-section:hover .sidebar-tooltip{
+  opacity: 1;
+}
