@@ -1,0 +1,231 @@
+.stories{
+  display: flex;
+  justify-content: left;
+  padding: 1px 6px 0px 7px;
+  column-gap: 5px;
+}
+
+.story{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 10px;
+  width: 75px;
+  cursor: pointer;
+}
+
+.story-icon{
+  height: 56px;
+  width: 57px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.story-icon .pfp{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  padding: 2px;
+  border: 2px solid rgb(255, 0, 85);
+}
+
+.story p{
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.story-user-name{
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.posts{
+  display: flex;
+  justify-content: center;
+}
+
+.post{
+  display: flex;
+  flex-direction: column;
+  width: 470px;
+  height: auto;
+  padding-bottom: 20px;
+  border-bottom: 1px solid grey;
+  margin-top: 30px;
+}
+
+.post-header{
+  display: flex;
+  justify-content: left;
+  align-items: top;
+  column-gap: 17px;
+  height: 42px;
+  padding: 3px 2px;
+}
+
+.post-user-icon{
+  height: 28px;
+  width: 28px;
+  padding-bottom: 4px;
+}
+
+.post-user-icon .icon{
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  border: 2px solid rgb(255, 0, 85);
+  padding: 2px;
+  object-fit: cover;
+}
+
+.post-user{
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.post-user-name{
+  font-size: 13px;
+}
+
+.post-user .name{
+  font-weight: bold;
+}
+.post-user .post-time{
+  color: grey;
+  margin-left: 5px;
+}
+
+.post-more-options{
+background-color: grey;
+}
+
+.post-more-options .icon{
+
+}
+
+.post-picture{
+  height: 500px;
+  width: 100%;
+}
+
+.post-image{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.post-buttons{
+  background-color: grey;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.freq-icons{
+  display: flex;
+  height: 100%;
+  flex: 1;
+  width: 50px;
+  background-color: rgb(6, 157, 25);
+}
+
+.freq-icon{
+  display: flex;
+  height: 100%;
+  width: 50px;
+  background-color: rgb(0, 26, 255);
+}
+
+.post-buttons .icon{
+  height: 100%;
+  width: 100%;
+}
+
+.save-icon{
+  display: flex;
+  height: 100%;
+  width: 50px;
+  background-color: rgb(0, 26, 255);
+}
+
+.post-desc{
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px ;
+}
+
+.post-like-count{
+
+}
+
+.post-like-count p{
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.post-user-desc{
+
+}
+
+.post-user-name{
+
+}
+
+.post-user-desc .name{
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.post-user-desc .user-desc{
+  font-weight: normal;
+  margin-left: 4px;
+}
+
+.view-comments{
+
+}
+
+.view-comments p{
+  display: inline-block;
+  font-size: 14px;
+  color: grey;
+  cursor: pointer;
+}
+
+.comment-input{
+  display: flex;
+  column-gap: 5px;
+  justify-content: space-between;
+  padding-right: 5px;
+}
+
+.comment-input input{
+  background-color: unset;
+  border: none;
+  flex: 1;
+}
+
+.comment-input input::placeholder{
+  font-size: 14px;
+}
+
+.comment-emoji{
+ background-color: grey;
+ width: 20px;
+ height: 20px;
+}
+
+.comment-emoji .icon{
+
+}
