@@ -1,10 +1,54 @@
 body{
   background-color: black;
   color: white;
-  padding: 78px 0px 60px 0px ;
   font-family: Roboto, Arial;
+}
+
+main{
+  z-index: 100;
 }
 
 p{
   margin: 0;
+}
+
+@media (max-width:780px){
+  .design-medium{
+    display: none;
+  }
+
+  .design-large{
+    display: none;
+  }
+
+  body{
+    padding: 78px 0px 60px 0px;
+  }
+}
+
+@media (min-width:780.5px) and (max-width:1150px){
+  .design-small{
+    display: none;
+  }
+ 
+  .design-large{
+    display: none;
+  }
+
+  body{
+    padding: 20px 0px 60px 72px;
+  }
+}
+@media (min-width:1050.5px){
+  .design-small{
+    display: none;
+  }
+
+  .design-medium{
+    display: none;
+  }
+
+  body{
+    padding: 78px 0px 60px 0px;
+  }
 }

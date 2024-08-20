@@ -46,7 +46,8 @@
 
 .posts{
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .post{
@@ -97,7 +98,9 @@
 
 .post-user .name{
   font-weight: bold;
+  cursor: pointer;
 }
+
 .post-user .post-time{
   color: grey;
   margin-left: 5px;
