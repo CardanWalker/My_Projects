@@ -2,6 +2,8 @@ body{
   background-color: black;
   color: white;
   font-family: Roboto, Arial;
+  display: flex;
+  align-items: top;
 }
 
 main{
@@ -49,6 +51,6 @@ p{
   }
 
   body{
-    padding: 78px 0px 60px 0px;
+    padding: 19px 0px 60px 273px;
   }
 }
