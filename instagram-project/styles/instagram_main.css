@@ -1,8 +1,21 @@
+main{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: top;
+}
+
+.main-site{
+  display: block;
+  margin-top: 19px;
+}
+
 .stories{
   display: flex;
   justify-content: left;
-  padding: 1px 6px 0px 7px;
+  padding: 0px;
   column-gap: 5px;
+  margin: 15px 0px 24px 0px;
 }
 
 .story{
@@ -47,6 +60,7 @@
 .posts{
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .post{
@@ -56,7 +70,7 @@
   height: auto;
   padding-bottom: 20px;
   border-bottom: 1px solid grey;
-  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .post-header{
@@ -233,7 +247,79 @@ background-color: grey;
 }
 
 .suggestions-container{
+  justify-content: left;
+  padding-left: 64px;
+  height: fit-content;
+  width: 300px;
+}
+
+.suggestions{
+  margin: 36px 0px 0px 0px;
+  row-gap: 10px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(58, 58, 58, 0.63);
+}
+
+.suggestions button{
+  border: none;
+  color: blue;
+  font-size: 11px;
+  font-weight: bold;
+  background-color: transparent;
+}
+
+.sugg-your-account{
+  display: flex;
+  column-gap: 10px;
+  padding: 0px 16px;
+  align-items: center;
+}
+
+.sugg-for-you button{
+  color: white;
+}
+
+.suggestions-container .sugg-icon{
+  width: 45px;
+  height: 45px;
+}
+
+.suggestions-container .icon{
   height: 100%;
   width: 100%;
-  background-color: blue;
+  border-radius: 50%;
+}
+
+.sugg-your-account .sugg-name{
+  flex: 1;
+}
+
+.sugg-your-account .button{
+
+}
+
+.sugg-for-you{
+  font-size: 14px;
+  display: flex;
+  padding: 4px 16px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sugg-accounts{
+  display: flex;
+  flex-direction: column;
+}
+
+.sugg-account{
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.sugg-account .sugg-name{
+  flex: 1;
 }

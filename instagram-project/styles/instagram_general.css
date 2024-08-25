@@ -6,10 +6,6 @@ body{
   align-items: top;
 }
 
-main{
-  z-index: 100;
-}
-
 p{
   margin: 0;
 }
@@ -51,6 +47,6 @@ p{
   }
 
   body{
-    padding: 19px 0px 60px 273px;
+    padding: 0px 0px 60px 273px;
   }
 }
