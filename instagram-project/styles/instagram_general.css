@@ -16,7 +16,7 @@ p{
   margin: 0;
 }
 
-@media (max-width:780px){
+@media (max-width:770px){
   .design-medium{
     display: none;
   }
@@ -30,7 +30,7 @@ p{
   }
 }
 
-@media (min-width:780.5px) and (max-width:1150px){
+@media (min-width:770.5px) and (max-width:1050px){
   .design-small{
     display: none;
   }

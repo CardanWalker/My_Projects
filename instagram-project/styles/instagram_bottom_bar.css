@@ -18,10 +18,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(10, 10, 10);
   position: relative;
   cursor: pointer;
   border-radius: 50%;
+  transition: background-color 0.15s;
+}
+
+.bottom-bar-icon:hover{
+  background-color: rgb(10, 10, 10);
 }
 
 .bottom-bar-icon .tooltip{
