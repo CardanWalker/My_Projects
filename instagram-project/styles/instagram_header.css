@@ -7,7 +7,6 @@
   height: 60px;
   background-color: black;
   display: flex;
-  justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid rgba(128, 128, 128, 0.397);
 }
@@ -18,6 +17,7 @@
 }
 
 .header-left{
+  align-items: center;
   justify-content: left;
   height: 50%;
   width: 100%;
@@ -45,7 +45,7 @@
 }
 
 .header-searchbox{
-  width: 100%;
+  width: 90%;
   background-color: rgb(50, 50, 50);
   border: none;
   border-radius: 5px;
@@ -61,11 +61,16 @@
 }
 
 .header-notifications{
-  width: 45px;
-  height: 45px;
-  background-color: blue;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10%;
+  height: 40px;
 }
 
 .header-notifications-icon{
-
+  width: 75%;
+  height: 100%;
+  filter: invert();
 }
