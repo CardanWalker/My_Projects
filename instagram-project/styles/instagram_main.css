@@ -1,11 +1,24 @@
-@media (min-width:770.5px){
+@media (min-width:770.5px) and (max-width: 1899.5px){
   main{
-    margin-left: 254px;
-    padding-left: 36px;
+    margin-left: 245px;
     width: 100%;
+  }
+
+  .sub-main{
+    justify-content: center;
     display: flex;
-    flex-direction: row;
-    align-items: top;
+  }
+}
+
+@media (min-width:1900px){
+  main{
+    margin-left: 336px;
+    width: 100%;
+  }
+
+  .sub-main{
+    justify-content: center;
+    display: flex;
   }
 }
 
@@ -260,20 +273,21 @@ background-color: grey;
 
 .suggestions{
   margin: 36px 0px 0px 0px;
-  row-gap: 10px;
+  width: 319px;
   flex: 1;
   display: flex;
   flex-direction: column;
+  align-items: left;
 }
 
 .suggestions .sugg-name{
   display: flex;
   flex-direction: column;
-  width: 215px;
+  width: 180px;
 }
 
 .suggestions .name{
-  font-size: 14px;
+  font-size: 13px;
   font-weight: bold;
 }
 
@@ -287,6 +301,22 @@ background-color: grey;
   color: grey;
 }
 
+.sugg-account .sugg-button{
+  margin-left: 12px;
+}
+
+.sugg-account button,
+.sugg-for-you button,
+.sugg-your-account button{
+  padding: 0;
+}
+
+.sugg-account .sugg-name,
+.sugg-for-you .sugg-name,
+.sugg-your-account .sugg-name{
+  row-gap: 5px;
+}
+
 .suggestions button{
   cursor: pointer;
   border: none;
@@ -297,16 +327,17 @@ background-color: grey;
 }
 
 .sugg-your-account{
-  margin: 0px 0px 10px 0px;
+  margin: 0px 0px 0px 0px;
   display: flex;
   padding: 0px 16px;
   align-items: center;
   justify-content: left;
 }
 
-.sugg-for-you button{
-  color: white;
+.sugg-others{
+  padding-top: 25px;
 }
+
 
 .suggestions-container .sugg-icon{
   width: 56px;
@@ -328,11 +359,23 @@ background-color: grey;
 }
 
 .sugg-for-you{
-  font-size: 14px;
+  height: 11px;
   display: flex;
+  align-items: baseline;
   padding: 4px 16px;
   justify-content: space-between;
-  align-items: center;
+}
+
+.sugg-for-you button{
+  height: 16px;
+  color: white;
+}
+
+.sugg-for-you p{
+  height: 11px;
+  color: rgb(168, 168, 168);
+  font-size: 13.3px;
+  font-weight: bold;
 }
 
 .sugg-accounts{
@@ -343,19 +386,23 @@ background-color: grey;
 
 .sugg-account{
   padding: 0px 16px;
-  justify-content: left;
+  justify-content: right;
   padding: 8px 16px;
   display: flex;
   align-items: center;
 }
 
 .sugg-links{
+  display: flex;
+  flex-direction: column;
+  row-gap: 17px;
+  margin-top: 30px;
   color: grey;
   font-size: 12px;
 }
 
 .sugg-links p{
-  line-height: 25px;
+  line-height: 20px;
   display: inline-block;
 }
 
