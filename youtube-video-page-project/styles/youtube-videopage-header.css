@@ -10,6 +10,13 @@
     background-color: rgb(15, 15, 15);
   }
 
+  header .tooltip{
+    
+    position: absolute;
+    color: white;
+    background-color: grey;
+  }
+
   header .icon{
     height: 100%;
     width: 100%;
@@ -41,9 +48,17 @@
   }
 
   .design-small .icon-container{
+    position: relative;
+    cursor: pointer;
+    border-radius: 50%;
     height: 24px;
     width: 24px;
     padding: 8px;
+    transition: background-color 0.05s;
+  }
+
+  .design-small .icon-container:hover{
+    background-color: rgb(42, 42, 42);
   }
 
   .design-small .youtube-icon-container{
@@ -57,7 +72,7 @@
     display: flex;
     column-gap: 4px;
     align-items: center;
-    flex: 1;
+    margin-right: 4px;
   }
 
   .header-middle{
