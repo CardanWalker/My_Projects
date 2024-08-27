@@ -8,11 +8,13 @@ p{
 }
 
 @media (max-width:656px){
-  .design-large{
+  .design-main{
     display: none;
   }
+}
 
-  .design-medium{
+@media (min-width:656.5px){
+  .design-small{
     display: none;
   }
 }
